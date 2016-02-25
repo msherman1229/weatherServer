@@ -1,0 +1,78 @@
+<html>
+<head>
+<title>City Finder</title>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<link rel="stylesheet" type="text/css" href="/stylesheets/weatherStyle.css"/>
+</head>
+<body>
+<div id="background"></div>
+<h1 id="main-head">Utah Weather</h1>
+<div id="head-bar"></div>
+<div id="submission">
+<form>
+Enter A Utah City<br><input type="text" id="cityfield" value=""><br>
+Suggestions<br><span id="txtHint">Empty</span><br>
+<input id="button" type="submit" value="Submit">
+</form>
+</div>
+<div id="weather">
+<ul id="blank-list">
+<li><p>City</p></li>
+<li><textarea id="dispcity">No City</textarea></li>
+<li><p>Current Weather</p></li>
+<li><div id="weather">No weather</div></li>
+</ul>
+</div>
+<script>
+$( "#cityfield" ).keyup(function() {
+  var url = "../getcity?q="+$("#cityfield").val();
+  $.getJSON(url,function(data) {
+    var everything;
+    everything = "<ul>";
+    $.each(data, function(i,item) {
+      everything += "<li> "+data[i].city;
+    });
+    everything += "</ul>";
+    $("#txtHint").html(everything);
+  })
+  .done(function() { console.log('getJSON request succeeded!'); })
+  .fail(function(jqXHR, textStatus, errorThrown) { 
+    console.log('getJSON request failed! ' + textStatus); 
+    console.log("incoming "+jqXHR.responseText);
+  })
+  .always(function() { console.log('getJSON request ended!');
+  })
+  .complete(function() { console.log("complete"); });
+});
+$("#button").click(function(e) {
+	var value = $("#cityfield").val();
+	$("#dispcity").text(value); 
+	e.preventDefault();
+	var myurl = "https://api.wunderground.com/api/8ea3ae6a0a9f4217/geolookup/conditions/q/Utah/";
+	myurl += value; 
+	myurl += ".json";
+	console.log(myurl);
+	$.ajax({url : myurl, dataType : "jsonp", success : function(parsed_json) {
+		var location = parsed_json['location']['city']; 
+		var temp_string = parsed_json['current_observation']['temperature_string']; 
+		var current_weather = parsed_json['current_observation']['weather'];
+		var update_time = parsed_json['current_observation']['observation_time']; 
+		var imageForecast = parsed_json['current_observation']['icon_url'];
+		everything = "<ul id=\"weather-list\">"; 
+		everything += "<li id=\"location-head\">" + location + "<br>";
+		everything += "<img src=\"" + imageForecast + "\"/>";
+		everything += "<li>Temperature: " + temp_string;
+		everything += "<li>Weather: " + current_weather;
+		everything += "<li>" + update_time; 
+		everything += "</ul>"; 
+		$("#weather").html(everything);
+		}
+//They already have an "icon" that I can use to display the type of weather, if I could find a list of possible options I could also make it match the background color and stuff
+	})		
+});
+</script>
+
+</body>
+
+
+</html>

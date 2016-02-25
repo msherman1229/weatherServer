@@ -1,0 +1,1200 @@
+nohup: ignoring input
+
+> cities@0.0.0 start /home/bitnami/weather/cities
+> node ./bin/www
+
+[0mGET / [36m304 [0m9.802 ms - -[0m
+[0mGET /~/stylesheets/weatherStyle.css [33m404 [0m11.028 ms - 976[0m
+Panguitch
+Paradise
+Paragonah
+Park City
+Park Valley
+Parowan
+Payson
+Peoa
+Pine Valley
+Pleasant Grove
+Plymouth
+Portage
+Price
+Providence
+Provo
+[0mGET /getcity?q=P [36m304 [0m7.464 ms - -[0m
+Panguitch
+Paradise
+Paragonah
+Park City
+Park Valley
+Parowan
+Payson
+Peoa
+Pine Valley
+Pleasant Grove
+Plymouth
+Portage
+Price
+Providence
+Provo
+[0mGET /getcity?q=P [36m304 [0m2.781 ms - -[0m
+Price
+Providence
+Provo
+[0mGET /getcity?q=Pr [36m304 [0m1.035 ms - -[0m
+Providence
+Provo
+[0mGET /getcity?q=Pro [36m304 [0m1.478 ms - -[0m
+Providence
+Provo
+[0mGET /getcity?q=Prov [36m304 [0m0.751 ms - -[0m
+Provo
+[0mGET /getcity?q=Provo [36m304 [0m0.521 ms - -[0m
+Provo
+[0mGET /getcity?q=Provo [36m304 [0m0.811 ms - -[0m
+[0mGET / [36m304 [0m0.757 ms - -[0m
+[0mGET /~/stylesheets/weatherStyle.css [33m404 [0m2.522 ms - 976[0m
+Saint George
+Salem
+Salina
+Salt Lake City
+Sandy
+Santa Clara
+Santaquin
+Scipio
+Sevier
+Sigurd
+Smithfield
+Snowville
+South Jordan
+South Willard
+Spanish Fork
+Spring City
+Springdale
+Springville
+Sterling
+Stockton
+Summit
+Sunnyside
+Syracuse
+[0mGET /getcity?q=S [32m200 [0m2.749 ms - 484[0m
+Saint George
+Salem
+Salina
+Salt Lake City
+Sandy
+Santa Clara
+Santaquin
+Scipio
+Sevier
+Sigurd
+Smithfield
+Snowville
+South Jordan
+South Willard
+Spanish Fork
+Spring City
+Springdale
+Springville
+Sterling
+Stockton
+Summit
+Sunnyside
+Syracuse
+[0mGET /getcity?q=S [36m304 [0m1.102 ms - -[0m
+Saint George
+Salem
+Salina
+Salt Lake City
+Sandy
+Santa Clara
+Santaquin
+[0mGET /getcity?q=Sa [32m200 [0m0.887 ms - 147[0m
+Salem
+Salina
+Salt Lake City
+[0mGET /getcity?q=Sal [32m200 [0m1.273 ms - 62[0m
+Salt Lake City
+[0mGET /getcity?q=Salt [32m200 [0m0.581 ms - 27[0m
+Salt Lake City
+[0mGET /getcity?q=Salt [36m304 [0m1.090 ms - -[0m
+Salt Lake City
+[0mGET /getcity?q=Salt%20L [32m200 [0m0.578 ms - 27[0m
+Salt Lake City
+[0mGET /getcity?q=Salt%20La [32m200 [0m0.738 ms - 27[0m
+Salt Lake City
+[0mGET /getcity?q=Salt%20La [36m304 [0m0.589 ms - -[0m
+Saint George
+Salem
+Salina
+Salt Lake City
+Sandy
+Santa Clara
+Santaquin
+Scipio
+Sevier
+Sigurd
+Smithfield
+Snowville
+South Jordan
+South Willard
+Spanish Fork
+Spring City
+Springdale
+Springville
+Sterling
+Stockton
+Summit
+Sunnyside
+Syracuse
+[0mGET /getcity?q=S [36m304 [0m3.940 ms - -[0m
+Sterling
+Stockton
+[0mGET /getcity?q=St [32m200 [0m0.516 ms - 41[0m
+Sterling
+Stockton
+[0mGET /getcity?q=St [36m304 [0m0.569 ms - -[0m
+[0mGET /getcity?q=Stal [32m200 [0m0.766 ms - 2[0m
+[0mGET /getcity?q=Stal [36m304 [0m0.813 ms - -[0m
+[0mGET /getcity?q=Stalt [32m200 [0m0.604 ms - 2[0m
+[0mGET /getcity?q=Stal [36m304 [0m2.513 ms - -[0m
+[0mGET /getcity?q=Sta [32m200 [0m1.375 ms - 2[0m
+Sterling
+Stockton
+[0mGET /getcity?q=St [36m304 [0m0.640 ms - -[0m
+Saint George
+Salem
+Salina
+Salt Lake City
+Sandy
+Santa Clara
+Santaquin
+Scipio
+Sevier
+Sigurd
+Smithfield
+Snowville
+South Jordan
+South Willard
+Spanish Fork
+Spring City
+Springdale
+Springville
+Sterling
+Stockton
+Summit
+Sunnyside
+Syracuse
+[0mGET /getcity?q=S [36m304 [0m6.284 ms - -[0m
+Alpine
+Altamont
+Alton
+Altonah
+American Fork
+Aneth
+Annabella
+Antimony
+Aurora
+Axtell
+Bear River City
+Beaver
+Beryl
+Bicknell
+Bingham Canyon
+Blanding
+Bluebell
+Bluff
+Bonanza
+Boulder
+Bountiful
+Brian Head
+Brigham City
+Bryce
+Bryce Canyon
+Cache Junction
+Cannonville
+Castle Dale
+Cedar City
+Cedar Valley
+Centerfield
+Centerville
+Central
+Chester
+Circleville
+Cisco
+Clarkston
+Clawson
+Clearfield
+Cleveland
+Clinton
+Coalville
+Collinston
+Corinne
+Cornish
+Croydon
+Dammeron Valley
+Delta
+Deweyville
+Draper
+Duchesne
+Duck Creek Village
+Dugway
+Dutch John
+East Carbon
+Echo
+Eden
+Elberta
+Elmo
+Elsinore
+Emery
+Enterprise
+Ephraim
+Escalante
+Eureka
+Fairview
+Farmington
+Fayette
+Ferron
+Fielding
+Fillmore
+Fort Duchesne
+Fountain Green
+Fruitland
+Garden City
+Garland
+Garrison
+Glendale
+Glenwood
+Goshen
+Grantsville
+Green River
+Greenville
+Greenwich
+Grouse Creek
+Gunlock
+Gunnison
+Gusher
+Hanksville
+Hanna
+Hatch
+Heber City
+Helper
+Henefer
+Henrieville
+Hiawatha
+Hildale
+Hill AFB
+Hinckley
+Holden
+Honeyville
+Hooper
+Howell
+Huntington
+Huntsville
+Hurricane
+Hyde Park
+Hyrum
+Ibapah
+Ivins
+Jensen
+Joseph
+Junction
+Kamas
+Kanab
+Kanarraville
+Kanosh
+Kaysville
+Kenilworth
+Kingston
+Koosharem
+La Sal
+La Verkin
+Lake Powell
+Laketown
+Lapoint
+Layton
+Leamington
+Leeds
+Lehi
+Levan
+Lewiston
+Lindon
+Loa
+Logan
+Lyman
+Lynndyl
+Magna
+Manila
+Manti
+Mantua
+Mapleton
+Marysvale
+Mayfield
+Meadow
+Mendon
+Mexican Hat
+Midvale
+Midway
+Milford
+Millville
+Minersville
+Moab
+Modena
+Mona
+Monroe
+Montezuma Creek
+Monticello
+Morgan
+Moroni
+Mount Carmel
+Mount Pleasant
+Mountain Home
+Myton
+Neola
+Nephi
+New Harmony
+Newcastle
+Newton
+North Salt Lake
+Oak City
+Oakley
+Oasis
+Ogden
+Orangeville
+Orderville
+Orem
+Panguitch
+Paradise
+Paragonah
+Park City
+Park Valley
+Parowan
+Payson
+Peoa
+Pine Valley
+Pleasant Grove
+Plymouth
+Portage
+Price
+Providence
+Provo
+Randlett
+Randolph
+Redmond
+Richfield
+Richmond
+Riverside
+Riverton
+Rockville
+Roosevelt
+Roy
+Rush Valley
+Saint George
+Salem
+Salina
+Salt Lake City
+Sandy
+Santa Clara
+Santaquin
+Scipio
+Sevier
+Sigurd
+Smithfield
+Snowville
+South Jordan
+South Willard
+Spanish Fork
+Spring City
+Springdale
+Springville
+Sterling
+Stockton
+Summit
+Sunnyside
+Syracuse
+Tabiona
+Talmage
+Teasdale
+Thompson
+Tooele
+Toquerville
+Torrey
+Tremonton
+Trenton
+Tridell
+Tropic
+Vernal
+Vernon
+Veyo
+Virgin
+Wales
+Wallsburg
+Washington
+Wellington
+Wellsville
+Wendover
+West Jordan
+Whiterocks
+Willard
+Woodruff
+Woods Cross
+
+[0mGET /getcity?q= [36m304 [0m9.197 ms - -[0m
+Alpine
+Altamont
+Alton
+Altonah
+American Fork
+Aneth
+Annabella
+Antimony
+Aurora
+Axtell
+Bear River City
+Beaver
+Beryl
+Bicknell
+Bingham Canyon
+Blanding
+Bluebell
+Bluff
+Bonanza
+Boulder
+Bountiful
+Brian Head
+Brigham City
+Bryce
+Bryce Canyon
+Cache Junction
+Cannonville
+Castle Dale
+Cedar City
+Cedar Valley
+Centerfield
+Centerville
+Central
+Chester
+Circleville
+Cisco
+Clarkston
+Clawson
+Clearfield
+Cleveland
+Clinton
+Coalville
+Collinston
+Corinne
+Cornish
+Croydon
+Dammeron Valley
+Delta
+Deweyville
+Draper
+Duchesne
+Duck Creek Village
+Dugway
+Dutch John
+East Carbon
+Echo
+Eden
+Elberta
+Elmo
+Elsinore
+Emery
+Enterprise
+Ephraim
+Escalante
+Eureka
+Fairview
+Farmington
+Fayette
+Ferron
+Fielding
+Fillmore
+Fort Duchesne
+Fountain Green
+Fruitland
+Garden City
+Garland
+Garrison
+Glendale
+Glenwood
+Goshen
+Grantsville
+Green River
+Greenville
+Greenwich
+Grouse Creek
+Gunlock
+Gunnison
+Gusher
+Hanksville
+Hanna
+Hatch
+Heber City
+Helper
+Henefer
+Henrieville
+Hiawatha
+Hildale
+Hill AFB
+Hinckley
+Holden
+Honeyville
+Hooper
+Howell
+Huntington
+Huntsville
+Hurricane
+Hyde Park
+Hyrum
+Ibapah
+Ivins
+Jensen
+Joseph
+Junction
+Kamas
+Kanab
+Kanarraville
+Kanosh
+Kaysville
+Kenilworth
+Kingston
+Koosharem
+La Sal
+La Verkin
+Lake Powell
+Laketown
+Lapoint
+Layton
+Leamington
+Leeds
+Lehi
+Levan
+Lewiston
+Lindon
+Loa
+Logan
+Lyman
+Lynndyl
+Magna
+Manila
+Manti
+Mantua
+Mapleton
+Marysvale
+Mayfield
+Meadow
+Mendon
+Mexican Hat
+Midvale
+Midway
+Milford
+Millville
+Minersville
+Moab
+Modena
+Mona
+Monroe
+Montezuma Creek
+Monticello
+Morgan
+Moroni
+Mount Carmel
+Mount Pleasant
+Mountain Home
+Myton
+Neola
+Nephi
+New Harmony
+Newcastle
+Newton
+North Salt Lake
+Oak City
+Oakley
+Oasis
+Ogden
+Orangeville
+Orderville
+Orem
+Panguitch
+Paradise
+Paragonah
+Park City
+Park Valley
+Parowan
+Payson
+Peoa
+Pine Valley
+Pleasant Grove
+Plymouth
+Portage
+Price
+Providence
+Provo
+Randlett
+Randolph
+Redmond
+Richfield
+Richmond
+Riverside
+Riverton
+Rockville
+Roosevelt
+Roy
+Rush Valley
+Saint George
+Salem
+Salina
+Salt Lake City
+Sandy
+Santa Clara
+Santaquin
+Scipio
+Sevier
+Sigurd
+Smithfield
+Snowville
+South Jordan
+South Willard
+Spanish Fork
+Spring City
+Springdale
+Springville
+Sterling
+Stockton
+Summit
+Sunnyside
+Syracuse
+Tabiona
+Talmage
+Teasdale
+Thompson
+Tooele
+Toquerville
+Torrey
+Tremonton
+Trenton
+Tridell
+Tropic
+Vernal
+Vernon
+Veyo
+Virgin
+Wales
+Wallsburg
+Washington
+Wellington
+Wellsville
+Wendover
+West Jordan
+Whiterocks
+Willard
+Woodruff
+Woods Cross
+
+[0mGET /getcity?q= [36m304 [0m3.465 ms - -[0m
+Panguitch
+Paradise
+Paragonah
+Park City
+Park Valley
+Parowan
+Payson
+Peoa
+Pine Valley
+Pleasant Grove
+Plymouth
+Portage
+Price
+Providence
+Provo
+[0mGET /getcity?q=P [36m304 [0m1.350 ms - -[0m
+Panguitch
+Paradise
+Paragonah
+Park City
+Park Valley
+Parowan
+Payson
+Peoa
+Pine Valley
+Pleasant Grove
+Plymouth
+Portage
+Price
+Providence
+Provo
+[0mGET /getcity?q=P [36m304 [0m0.626 ms - -[0m
+Price
+Providence
+Provo
+[0mGET /getcity?q=Pr [36m304 [0m0.553 ms - -[0m
+Providence
+Provo
+[0mGET /getcity?q=Pro [36m304 [0m1.712 ms - -[0m
+Provo
+[0mGET /getcity?q=Provo [36m304 [0m0.750 ms - -[0m
+Provo
+[0mGET /getcity?q=Provo [36m304 [0m1.672 ms - -[0m
+Provo
+[0mGET /getcity?q=Provo [36m304 [0m1.208 ms - -[0m
+Provo
+[0mGET /getcity?q=Provo [36m304 [0m1.412 ms - -[0m
+[0mGET / [36m304 [0m0.589 ms - -[0m
+[0mGET /~/stylesheets/weatherStyle.css [33m404 [0m1.446 ms - 976[0m
+[0mGET / [32m200 [0m2.777 ms - 2674[0m
+[0mGET /stylesheets/weatherStyle.css [33m404 [0m0.872 ms - 976[0m
+[0mGET / [36m304 [0m0.524 ms - -[0m
+[0mGET /stylesheets/weatherStyle.css [33m404 [0m0.740 ms - 976[0m
+[0mGET /stylesheets/weatherStyle.css [33m404 [0m1.141 ms - 976[0m
+[0mGET /stylesheets/weatherStyle.css [33m404 [0m3.358 ms - 976[0m
+[0mGET / [32m200 [0m1.514 ms - 2661[0m
+[0mGET /weatherStyle.css [33m404 [0m0.834 ms - 976[0m
+[0mGET /weatherStyle.css [33m404 [0m0.969 ms - 976[0m
+[0mGET /weatherStyle.css [33m404 [0m0.949 ms - 976[0m
+[0mGET /stylesheets/weatherStyle.css [33m404 [0m1.672 ms - 976[0m
+[0mGET / [32m200 [0m1.622 ms - 2675[0m
+[0mGET /stylesheets/weatherStyle.css [33m404 [0m0.953 ms - 976[0m
+[0mGET /stylesheets/weatherStyle.css [33m404 [0m0.910 ms - 976[0m
+[0mGET /public/stylesheets/weatherStyle.css [33m404 [0m1.857 ms - 976[0m
+[0mGET /stylesheets/weatherStyle.css [33m404 [0m1.913 ms - 976[0m
+[0mGET /index.ejs [33m404 [0m0.959 ms - 976[0m
+[0mGET / [36m304 [0m0.496 ms - -[0m
+[0mGET /stylesheets/weatherStyle.css [33m404 [0m2.154 ms - 976[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.470 ms - -[0m
+[0mGET /stylesheets/weatherStyle.css [33m404 [0m1.011 ms - 976[0m
+[0mGET /stylesheets/weatherStyle.css [32m200 [0m0.755 ms - 1114[0m
+[0mGET / [36m304 [0m0.501 ms - -[0m
+[0mGET /stylesheets/weatherStyle.css [36m304 [0m1.333 ms - -[0m
+Panguitch
+Paradise
+Paragonah
+Park City
+Park Valley
+Parowan
+Payson
+Peoa
+Pine Valley
+Pleasant Grove
+Plymouth
+Portage
+Price
+Providence
+Provo
+[0mGET /getcity?q=P [36m304 [0m0.914 ms - -[0m
+Panguitch
+Paradise
+Paragonah
+Park City
+Park Valley
+Parowan
+Payson
+Peoa
+Pine Valley
+Pleasant Grove
+Plymouth
+Portage
+Price
+Providence
+Provo
+[0mGET /getcity?q=P [36m304 [0m1.305 ms - -[0m
+Price
+Providence
+Provo
+[0mGET /getcity?q=Pr [36m304 [0m0.774 ms - -[0m
+Providence
+Provo
+[0mGET /getcity?q=Pro [36m304 [0m0.798 ms - -[0m
+Providence
+Provo
+[0mGET /getcity?q=Prov [36m304 [0m0.767 ms - -[0m
+Provo
+[0mGET /getcity?q=Provo [36m304 [0m0.812 ms - -[0m
+Provo
+[0mGET /getcity?q=Provo [36m304 [0m0.981 ms - -[0m
+Providence
+Provo
+[0mGET /getcity?q=Prov [36m304 [0m0.982 ms - -[0m
+Providence
+Provo
+[0mGET /getcity?q=Pro [36m304 [0m0.777 ms - -[0m
+Price
+Providence
+Provo
+[0mGET /getcity?q=Pr [36m304 [0m0.967 ms - -[0m
+Panguitch
+Paradise
+Paragonah
+Park City
+Park Valley
+Parowan
+Payson
+Peoa
+Pine Valley
+Pleasant Grove
+Plymouth
+Portage
+Price
+Providence
+Provo
+[0mGET /getcity?q=P [36m304 [0m1.314 ms - -[0m
+Alpine
+Altamont
+Alton
+Altonah
+American Fork
+Aneth
+Annabella
+Antimony
+Aurora
+Axtell
+Bear River City
+Beaver
+Beryl
+Bicknell
+Bingham Canyon
+Blanding
+Bluebell
+Bluff
+Bonanza
+Boulder
+Bountiful
+Brian Head
+Brigham City
+Bryce
+Bryce Canyon
+Cache Junction
+Cannonville
+Castle Dale
+Cedar City
+Cedar Valley
+Centerfield
+Centerville
+Central
+Chester
+Circleville
+Cisco
+Clarkston
+Clawson
+Clearfield
+Cleveland
+Clinton
+Coalville
+Collinston
+Corinne
+Cornish
+Croydon
+Dammeron Valley
+Delta
+Deweyville
+Draper
+Duchesne
+Duck Creek Village
+Dugway
+Dutch John
+East Carbon
+Echo
+Eden
+Elberta
+Elmo
+Elsinore
+Emery
+Enterprise
+Ephraim
+Escalante
+Eureka
+Fairview
+Farmington
+Fayette
+Ferron
+Fielding
+Fillmore
+Fort Duchesne
+Fountain Green
+Fruitland
+Garden City
+Garland
+Garrison
+Glendale
+Glenwood
+Goshen
+Grantsville
+Green River
+Greenville
+Greenwich
+Grouse Creek
+Gunlock
+Gunnison
+Gusher
+Hanksville
+Hanna
+Hatch
+Heber City
+Helper
+Henefer
+Henrieville
+Hiawatha
+Hildale
+Hill AFB
+Hinckley
+Holden
+Honeyville
+Hooper
+Howell
+Huntington
+Huntsville
+Hurricane
+Hyde Park
+Hyrum
+Ibapah
+Ivins
+Jensen
+Joseph
+Junction
+Kamas
+Kanab
+Kanarraville
+Kanosh
+Kaysville
+Kenilworth
+Kingston
+Koosharem
+La Sal
+La Verkin
+Lake Powell
+Laketown
+Lapoint
+Layton
+Leamington
+Leeds
+Lehi
+Levan
+Lewiston
+Lindon
+Loa
+Logan
+Lyman
+Lynndyl
+Magna
+Manila
+Manti
+Mantua
+Mapleton
+Marysvale
+Mayfield
+Meadow
+Mendon
+Mexican Hat
+Midvale
+Midway
+Milford
+Millville
+Minersville
+Moab
+Modena
+Mona
+Monroe
+Montezuma Creek
+Monticello
+Morgan
+Moroni
+Mount Carmel
+Mount Pleasant
+Mountain Home
+Myton
+Neola
+Nephi
+New Harmony
+Newcastle
+Newton
+North Salt Lake
+Oak City
+Oakley
+Oasis
+Ogden
+Orangeville
+Orderville
+Orem
+Panguitch
+Paradise
+Paragonah
+Park City
+Park Valley
+Parowan
+Payson
+Peoa
+Pine Valley
+Pleasant Grove
+Plymouth
+Portage
+Price
+Providence
+Provo
+Randlett
+Randolph
+Redmond
+Richfield
+Richmond
+Riverside
+Riverton
+Rockville
+Roosevelt
+Roy
+Rush Valley
+Saint George
+Salem
+Salina
+Salt Lake City
+Sandy
+Santa Clara
+Santaquin
+Scipio
+Sevier
+Sigurd
+Smithfield
+Snowville
+South Jordan
+South Willard
+Spanish Fork
+Spring City
+Springdale
+Springville
+Sterling
+Stockton
+Summit
+Sunnyside
+Syracuse
+Tabiona
+Talmage
+Teasdale
+Thompson
+Tooele
+Toquerville
+Torrey
+Tremonton
+Trenton
+Tridell
+Tropic
+Vernal
+Vernon
+Veyo
+Virgin
+Wales
+Wallsburg
+Washington
+Wellington
+Wellsville
+Wendover
+West Jordan
+Whiterocks
+Willard
+Woodruff
+Woods Cross
+
+[0mGET /getcity?q= [36m304 [0m4.059 ms - -[0m
+Alpine
+Altamont
+Alton
+Altonah
+American Fork
+Aneth
+Annabella
+Antimony
+Aurora
+Axtell
+[0mGET /getcity?q=A [32m200 [0m1.536 ms - 194[0m
+Alpine
+Altamont
+Alton
+Altonah
+American Fork
+Aneth
+Annabella
+Antimony
+Aurora
+Axtell
+[0mGET /getcity?q=A [36m304 [0m2.240 ms - -[0m
+[0mGET /getcity?q=Ap [32m200 [0m0.669 ms - 2[0m
+Alpine
+Altamont
+Alton
+Altonah
+American Fork
+Aneth
+Annabella
+Antimony
+Aurora
+Axtell
+[0mGET /getcity?q=A [36m304 [0m1.054 ms - -[0m
+Alpine
+Altamont
+Alton
+Altonah
+[0mGET /getcity?q=Al [32m200 [0m1.075 ms - 75[0m
+Alpine
+[0mGET /getcity?q=Alp [32m200 [0m0.932 ms - 19[0m
+[0mGET /getcity?q=Alpiun [32m200 [0m0.912 ms - 2[0m
+[0mGET /getcity?q=Alpiun [36m304 [0m0.819 ms - -[0m
+[0mGET /getcity?q=Alpiun [36m304 [0m0.754 ms - -[0m
+[0mGET /getcity?q=Alpiu [32m200 [0m0.785 ms - 2[0m
+Alpine
+[0mGET /getcity?q=Alpi [32m200 [0m1.389 ms - 19[0m
+[0mGET /getcity?q=Alpiin [32m200 [0m0.884 ms - 2[0m
+[0mGET /getcity?q=Alpiine [32m200 [0m1.597 ms - 2[0m
+[0mGET /getcity?q=Alpiine [36m304 [0m0.573 ms - -[0m
+[0mGET /getcity?q=Alpiine [36m304 [0m0.690 ms - -[0m
+[0mGET /getcity?q=Alpiin [36m304 [0m0.740 ms - -[0m
+[0mGET /getcity?q=Alpii [32m200 [0m0.882 ms - 2[0m
+Alpine
+[0mGET /getcity?q=Alpi [36m304 [0m0.870 ms - -[0m
+Alpine
+[0mGET /getcity?q=Alpin [32m200 [0m0.890 ms - 19[0m
+Alpine
+[0mGET /getcity?q=Alpine [32m200 [0m0.778 ms - 19[0m
+Alpine
+[0mGET /getcity?q=Alpine [36m304 [0m0.915 ms - -[0m
+Panguitch
+Paradise
+Paragonah
+Park City
+Park Valley
+Parowan
+Payson
+Peoa
+Pine Valley
+Pleasant Grove
+Plymouth
+Portage
+Price
+Providence
+Provo
+[0mGET /getcity?q=P [36m304 [0m2.291 ms - -[0m
+Panguitch
+Paradise
+Paragonah
+Park City
+Park Valley
+Parowan
+Payson
+Peoa
+Pine Valley
+Pleasant Grove
+Plymouth
+Portage
+Price
+Providence
+Provo
+[0mGET /getcity?q=P [36m304 [0m0.878 ms - -[0m
+Price
+Providence
+Provo
+[0mGET /getcity?q=Pr [36m304 [0m1.764 ms - -[0m
+Providence
+Provo
+[0mGET /getcity?q=Pro [36m304 [0m0.685 ms - -[0m
+Provo
+[0mGET /getcity?q=Provo [36m304 [0m1.540 ms - -[0m
+Provo
+[0mGET /getcity?q=Provo [36m304 [0m0.825 ms - -[0m
+Provo
+[0mGET /getcity?q=Provo [36m304 [0m0.673 ms - -[0m
